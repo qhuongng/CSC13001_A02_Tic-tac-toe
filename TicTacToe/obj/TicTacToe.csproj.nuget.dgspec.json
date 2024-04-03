@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Caffeine\\Desktop\\Source code\\TicTacToe\\TicTacToe.csproj": {}
+    "C:\\Users\\Caffeine\\Documents\\GitHub\\CSC13001_A02_Tic-tac-toe\\TicTacToe\\TicTacToe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Caffeine\\Desktop\\Source code\\TicTacToe\\TicTacToe.csproj": {
+    "C:\\Users\\Caffeine\\Documents\\GitHub\\CSC13001_A02_Tic-tac-toe\\TicTacToe\\TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caffeine\\Desktop\\Source code\\TicTacToe\\TicTacToe.csproj",
+        "projectUniqueName": "C:\\Users\\Caffeine\\Documents\\GitHub\\CSC13001_A02_Tic-tac-toe\\TicTacToe\\TicTacToe.csproj",
         "projectName": "TicTacToe",
-        "projectPath": "C:\\Users\\Caffeine\\Desktop\\Source code\\TicTacToe\\TicTacToe.csproj",
+        "projectPath": "C:\\Users\\Caffeine\\Documents\\GitHub\\CSC13001_A02_Tic-tac-toe\\TicTacToe\\TicTacToe.csproj",
         "packagesPath": "C:\\Users\\Caffeine\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caffeine\\Desktop\\Source code\\TicTacToe\\obj\\",
+        "outputPath": "C:\\Users\\Caffeine\\Documents\\GitHub\\CSC13001_A02_Tic-tac-toe\\TicTacToe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Caffeine\\AppData\\Roaming\\NuGet\\NuGet.Config",

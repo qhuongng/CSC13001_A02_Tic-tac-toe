@@ -82,6 +82,7 @@ namespace TicTacToe
             }
 
             mw.IsMusicOn = !mw.IsMusicOn;
+            mw.GameScreen.ToggleMusicIcon();
         }
 
         public void ToggleMusicIcon()
@@ -91,7 +92,6 @@ namespace TicTacToe
             if (mw.IsMusicOn)
             {
                 MusicIcon.Source = new BitmapImage(new Uri("pack://application:,,,/icons/music_on.png"));
-
             }
             else
             {

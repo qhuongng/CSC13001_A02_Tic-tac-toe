@@ -265,6 +265,20 @@ namespace TicTacToe
             }
         }
 
+        public void ToggleMusicIcon()
+        {
+            MainWindow mw = (MainWindow)Window.GetWindow(this);
+
+            if (mw.IsMusicOn)
+            {
+                MusicIcon.Source = new BitmapImage(new Uri("pack://application:,,,/icons/music_on.png"));
+            }
+            else
+            {
+                MusicIcon.Source = new BitmapImage(new Uri("pack://application:,,,/icons/music_off.png"));
+            }
+        }
+
         private void PlayClick()
         {
             if (!isSoundOn)

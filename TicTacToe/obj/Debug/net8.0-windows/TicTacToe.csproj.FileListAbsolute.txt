@@ -124,3 +124,46 @@ C:\Users\Caffeine\Desktop\Source code\TicTacToe\obj\Debug\net8.0-windows\refint\
 C:\Users\Caffeine\Desktop\Source code\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.pdb
 C:\Users\Caffeine\Desktop\Source code\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.genruntimeconfig.cache
 C:\Users\Caffeine\Desktop\Source code\TicTacToe\obj\Debug\net8.0-windows\ref\TicTacToe.dll
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\bin\Debug\net8.0-windows\TicTacToe.exe
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\bin\Debug\net8.0-windows\audio\bgm.mp3
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\bin\Debug\net8.0-windows\audio\click.mp3
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\bin\Debug\net8.0-windows\audio\end.mp3
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\bin\Debug\net8.0-windows\audio\tic.mp3
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\bin\Debug\net8.0-windows\audio\toc.mp3
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\bin\Debug\net8.0-windows\TicTacToe.deps.json
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\bin\Debug\net8.0-windows\TicTacToe.runtimeconfig.json
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\bin\Debug\net8.0-windows\TicTacToe.dll
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\bin\Debug\net8.0-windows\TicTacToe.pdb
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\BoardSizeDialog.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\EndScreen.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\GameScreen.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\HelpScreen.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\LoadDialog.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\SaveDialog.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\StartScreen.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe_Content.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe_MarkupCompile.cache
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe_MarkupCompile.lref
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\App.baml
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\BoardSizeDialog.baml
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\EndScreen.baml
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\GameScreen.baml
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\HelpScreen.baml
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\LoadDialog.baml
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\SaveDialog.baml
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\StartScreen.baml
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.g.resources
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.AssemblyInfoInputs.cache
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.AssemblyInfo.cs
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.sourcelink.json
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.dll
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\refint\TicTacToe.dll
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.pdb
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.genruntimeconfig.cache
+C:\Users\Caffeine\Documents\GitHub\CSC13001_A02_Tic-tac-toe\TicTacToe\obj\Debug\net8.0-windows\ref\TicTacToe.dll
