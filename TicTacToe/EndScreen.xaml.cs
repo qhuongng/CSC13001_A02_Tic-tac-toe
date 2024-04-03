@@ -92,6 +92,7 @@ namespace TicTacToe
                 WinnerIcon.Source = new BitmapImage(new Uri("pack://application:,,,/icons/o.png"));
             }
 
+            TieMsg.Visibility = Visibility.Collapsed;
             WinMsg.Visibility = Visibility.Visible;
         }
 
