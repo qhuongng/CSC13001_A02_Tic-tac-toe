@@ -1,0 +1,20 @@
+﻿TicTacToe
+
+
+winexe
+C#
+.cs
+C:\Users\Caffeine\Desktop\Source code\TicTacToe\obj\Debug\net8.0-windows\
+TicTacToe
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\Caffeine\Desktop\Source code\TicTacToe\App.xaml
+8-832500475
+6-932553443
+11-1815270809
+198-294894759
+BoardSizeDialog.xaml;EndScreen.xaml;GameScreen.xaml;HelpScreen.xaml;LoadDialog.xaml;MainWindow.xaml;SaveDialog.xaml;StartScreen.xaml;
+
+False
+

@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="TicTacToe.SaveDialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TicTacToe"
+             mc:Ignorable="d" 
+             Width="Auto" Height="Auto"
+             d:DesignHeight="620" d:DesignWidth="550">
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="#000000" Opacity="0.3"/>
+        </Grid.Background>
+
+        <Border Width="320" Height="220" Background="White" BorderBrush="Black"
+                BorderThickness="2">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Save current game as" FontWeight="SemiBold"
+                           FontFamily="Comic Sans MS" FontSize="22"
+                           HorizontalAlignment="Center" Margin="0,10,0,20"/>
+
+                <TextBox x:Name="FnameTxtInput" Margin="20,15,20,0" />
+
+                <TextBlock x:Name="ErrorMsg" Text="Cannot save. Check file name and try again."
+                           TextWrapping="Wrap" FontSize="12" Margin="20,10,20,0" Foreground="Red"
+                           FontFamily="Comic Sans MS" HorizontalAlignment="Center" Visibility="Hidden" />
+
+                <DockPanel LastChildFill="False" Margin="0,10,0,10" Width="260">
+                    <Button DockPanel.Dock="Left" x:Name="CancelBtn" Content="Cancel" Width="120"
+                            Style="{StaticResource TextButtonStyle}" Click="CancelBtn_Click"/>
+
+                    <Button DockPanel.Dock="Right" x:Name="SaveBtn" Content="Save &amp; Exit" Width="120"
+                            Style="{StaticResource TextButtonStyle}" Click="SaveBtn_Click" />
+                </DockPanel>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

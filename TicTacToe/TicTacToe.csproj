@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>icons\app_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="audio\bgm.mp3" />
+    <None Remove="audio\click.mp3" />
+    <None Remove="audio\end.mp3" />
+    <None Remove="audio\tic.mp3" />
+    <None Remove="audio\toc.mp3" />
+    <None Remove="icons\help.png" />
+    <None Remove="icons\music_off.png" />
+    <None Remove="icons\music_on.png" />
+    <None Remove="icons\o.png" />
+    <None Remove="icons\restart.png" />
+    <None Remove="icons\return.png" />
+    <None Remove="icons\save.png" />
+    <None Remove="icons\save_disabled.png" />
+    <None Remove="icons\settings.png" />
+    <None Remove="icons\sound_off.png" />
+    <None Remove="icons\sound_on.png" />
+    <None Remove="icons\x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="audio\bgm.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\click.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\end.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\tic.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="audio\toc.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\app_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\help.png" />
+    <Resource Include="icons\music_off.png" />
+    <Resource Include="icons\music_on.png" />
+    <Resource Include="icons\o.png" />
+    <Resource Include="icons\restart.png" />
+    <Resource Include="icons\return.png" />
+    <Resource Include="icons\save.png" />
+    <Resource Include="icons\save_disabled.png" />
+    <Resource Include="icons\sound_off.png" />
+    <Resource Include="icons\sound_on.png" />
+    <Resource Include="icons\x.png" />
+  </ItemGroup>
+
+</Project>

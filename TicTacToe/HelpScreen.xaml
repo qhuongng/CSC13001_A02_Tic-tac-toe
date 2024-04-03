@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="TicTacToe.HelpScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TicTacToe"
+             mc:Ignorable="d" 
+             Width="Auto" Height="Auto"
+             d:DesignHeight="620" d:DesignWidth="550">
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="#000000" Opacity="0.3"/>
+        </Grid.Background>
+
+        <Border Width="320" Height="480" Background="White" BorderBrush="Black"
+                BorderThickness="2">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="What is this!?" FontWeight="SemiBold"
+                           FontFamily="Comic Sans MS" FontSize="22"
+                           HorizontalAlignment="Center" Margin="0,10,0,10"/>
+
+                <TextBlock Text="This is just Tic-Tac-Toe on a custom-size board. Get 5 in a row and you win!&#x0a;You can play with either a mouse or a keyboard."
+                           FontFamily="Comic Sans MS" FontSize="16" TextWrapping="Wrap"
+                           HorizontalAlignment="Center" Margin="30,0,30,0"/>
+
+                <TextBlock Text="Keyboard shortcuts" FontWeight="SemiBold"
+                           FontFamily="Comic Sans MS" FontSize="22"
+                           HorizontalAlignment="Center" Margin="0,10,0,10"/>
+
+                <TextBlock Text="Arrow keys: Move cursor&#x0a;Enter: Confirm move&#x0a;M: Toggle music&#x0a;S: Toggle sound&#x0a;L: Open Save dialog&#x0a;R: Restart game&#x0a;Q: Return to menu&#x0a;H: Open Help dialog"
+                           FontFamily="Comic Sans MS" FontSize="16" TextWrapping="Wrap"
+                           HorizontalAlignment="Center" Margin="30,0,30,0"/>
+
+                <Button x:Name="OkBtn" Content="OK" Width="80" Margin="0,15,0,0"
+                        Style="{StaticResource TextButtonStyle}" Click="OkBtn_Click"/>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

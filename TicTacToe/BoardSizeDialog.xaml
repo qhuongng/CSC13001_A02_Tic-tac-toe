@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="TicTacToe.BoardSizeDialog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TicTacToe"
+             mc:Ignorable="d" 
+             Width="Auto" Height="Auto"
+             d:DesignHeight="620" d:DesignWidth="550">
+    <UserControl.Resources>
+        <local:BoardSizeRestrictor x:Key="SizeRestrictor" />
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="#000000" Opacity="0.3"/>
+        </Grid.Background>
+
+        <Border Width="320" Height="220" Background="White" BorderBrush="Black"
+                BorderThickness="2">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Board dimensions" FontWeight="SemiBold"
+                           FontFamily="Comic Sans MS" FontSize="22"
+                           HorizontalAlignment="Center" Margin="0,10,0,20"/>
+
+                <Grid Margin="30,20,30,20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBox Grid.Column="0" x:Name="RowTxtInput" Text="12"
+                             PreviewTextInput="HandleSizeInput"
+                             TextAlignment="Center" Margin="0,0,10,0" />
+
+                    <TextBlock Grid.Column="1" Text="rows ×"
+                               FontSize="18" FontFamily="Comic Sans MS"
+                               VerticalAlignment="Center" />
+
+                    <TextBox Grid.Column="2" x:Name="ColTxtInput" Text="12"
+                             PreviewTextInput="HandleSizeInput"
+                             TextAlignment="Center" Margin="0,0,10,0" />
+
+                    <TextBlock Grid.Column="3" Text="columns"
+                               FontSize="18" FontFamily="Comic Sans MS"
+                               VerticalAlignment="Center" />
+                </Grid>
+
+                <DockPanel LastChildFill="False" Margin="0,20,0,10" Width="180">
+                    <Button DockPanel.Dock="Left" x:Name="CancelBtn" Content="Cancel" Width="80"
+                            Style="{StaticResource TextButtonStyle}" Click="CancelBtn_Click"/>
+
+                    <Button DockPanel.Dock="Right" x:Name="PlayBtn" Content="Play" Width="80"
+                            Style="{StaticResource TextButtonStyle}" Click="PlayBtn_Click">
+                        <Button.IsEnabled>
+                            <MultiBinding Converter="{StaticResource SizeRestrictor}">
+                                <Binding ElementName="RowTxtInput" Path="Text" />
+                                <Binding ElementName="ColTxtInput" Path="Text" />
+                            </MultiBinding>
+                        </Button.IsEnabled>
+                    </Button>
+                </DockPanel>
+                
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

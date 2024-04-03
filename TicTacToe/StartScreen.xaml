@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="TicTacToe.StartScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TicTacToe"
+             mc:Ignorable="d"
+             d:DesignHeight="620" d:DesignWidth="550">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row ="0" Margin="60,40,60,0">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" VerticalAlignment="Center" 
+                        HorizontalAlignment="Center" Orientation="Horizontal">
+                <TextBlock Text="C" Foreground="Red"
+                           FontSize="130" FontWeight="Bold"
+                           FontFamily="Comic Sans MS" />
+                <TextBlock Text="a" Foreground="Blue"
+                           FontSize="130" FontWeight="Bold"
+                           FontFamily="Comic Sans MS" />
+                <TextBlock Text="r" Foreground="Red"
+                           FontSize="130" FontWeight="Bold"
+                           FontFamily="Comic Sans MS" />
+                <TextBlock Text="o" Foreground="Blue"
+                           FontSize="130" FontWeight="Bold"
+                           FontFamily="Comic Sans MS" />
+            </StackPanel>
+
+            <Border Grid.Row="1" VerticalAlignment="Center">
+                <StackPanel MaxWidth="200"  Orientation="Vertical">
+                    <Button x:Name="NewBtn" Content="New game" Margin="0,0,0,20"
+                            Style="{StaticResource TextButtonStyle}" Click="NewBtn_Click"/>
+                    
+                    <Button x:Name="LoadBtn" Content="Load game" Margin="0,0,0,20"
+                            Style="{StaticResource TextButtonStyle}" Click="LoadBtn_Click"/>
+                    
+                    <Button x:Name="QuitBtn" Content="Quit"
+                            Style="{StaticResource TextButtonStyle}" Click="QuitBtn_Click"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <Button Grid.Row="1" HorizontalAlignment="Right"
+                x:Name="MusicBtn" Click="MusicBtn_Click"
+                Style="{StaticResource ImageButtonStyle}">
+            <Image x:Name="MusicIcon" 
+                   Source="pack://application:,,,/icons/music_on.png" />
+        </Button>
+    </Grid>
+</UserControl>
