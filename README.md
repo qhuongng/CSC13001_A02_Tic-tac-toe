@@ -13,26 +13,12 @@ This is a simple implementation of a multiplayer [m,n,k-game](https://en.wikiped
 The demo video for this application is available on [YouTube](https://youtu.be/gdkQVo9UXRM) (in Vietnamese). Due to the assignment's requirements, the game saving and loading system in the demo was modified to use Window's native Save and Open File dialogs. The source code in this repository uses custom save and load dialogs.
 
 ## Build & run the application locally
-### Running the pre-built executable file
-[**.NET Desktop Runtime 8.0 and above**](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) is required to run the executable file.
+[**Microsoft Visual Studio**](https://visualstudio.microsoft.com/vs/community/) with C# and .NET development packages installed are required to build and run the project source code.
 
-1. 1. Clone this repository to your local machine.
-[**Microsoft Visual Studio**](https://visualstudio.microsoft.com/vs/community/) with C# and .NET development packages installed are required to build and run the project.
+1. Clone this repository to your local machine.
 
-1. Clone this repository to your local machine and unzip the **images** folder.
+2. Open the solution file in Visual Studio.
 
-2. Open the **db.sql** file, bulk replace the paths to the image files with your own paths and run the script. \
-    *Example: consider this SQL script for inserting an entry into the Actor table:*
-    ```
-    INSERT INTO Actor (actorName, avatar, shotDes)
-    VALUES (N'Tuấn Trần',
-            (SELECT BulkColumn FROM OPENROWSET(BULK 'C:\Users\Caffeine\Desktop\cineImgData\tuấn trần.jpg', SINGLE_BLOB) AS Avatar),
-		    N'Diễn viên điện ảnh, người mẫu. Nổi tiếng với các vai diễn trong phim "Bố Già", "Hồn Papa Da Con Gái", "Gái Già Lắm Chiêu V".')
-    ```
-    *Highlight `C:\Users\Caffeine\Desktop\cineImgData`, press **Ctrl + H** to open the replace menu, put your actual path to the **images** folder in the bottom field, and press **Alt + A** or choose **Replace all**.* 
+3. Build and run the project.
 
-3. Open the solution file in Visual Studio, open the NuGet Package Manager and run the scaffold script:
-    ```
-    Scaffold-DbContext "Data Source=<YOUR_SERVER_NAME>;Initial Catalog=cinemaManagement;User ID=<YOUR_USER_ID>;Password=<YOUR_PASSWORD>;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
-    ```
-4. Build and run the project.
+**Note:** If you move the contents of the **TicTacToe/bin/Debug/net8.0-windows** folder elsewhere, you can still run the app without building it in Visual Studio by running **TicTacToe.exe**, as long as all the content in the aforementioned folder is in the same directory at the time of execution, and [**.NET Desktop Runtime 8.0 and above**](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) is installed.
