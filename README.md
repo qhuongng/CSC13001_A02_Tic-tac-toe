@@ -15,7 +15,7 @@ Features to consider for further development include a single-player mode agains
 The demo video for this application is available on [YouTube](https://youtu.be/gdkQVo9UXRM) (in Vietnamese). Due to the assignment's requirements, the game saving and loading system in the demo was modified to use Window's native Save and Open File dialogs. The source code in this repository uses custom save and load dialogs.
 
 ## Build & run the application locally
-[**Microsoft Visual Studio**](https://visualstudio.microsoft.com/vs/community/) with C# and .NET development packages installed are required to build and run the project source code.
+[**Microsoft Visual Studio**](https://visualstudio.microsoft.com/vs/community/), with C# and .NET development packages installed, is required to build and run the project source code.
 
 1. Clone this repository to your local machine.
 
